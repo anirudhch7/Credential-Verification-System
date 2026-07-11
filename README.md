@@ -9,13 +9,11 @@ truffle compile
 truffle migrate --reset --network development
 ```
 
-
 ## Testing
 Run the smart contract tests using Truffle:
 ```bash
 truffle test
 ```
-
 
 ## Deployment to Live Network
 - Update `truffle-config.js` with the configuration for your desired network (e.g., Ethereum Testnet).
